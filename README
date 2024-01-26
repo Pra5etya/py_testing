@@ -1,0 +1,5 @@
+1. buat python environment terlebih dahulu (py -m venv "environment_name")
+2. install library / packages pytets (pip install pytest)
+3. buat folder dan file untuk test
+4. buat folder dan file untuk tester
+5. jalankan fungsi berikut "pytest nama_file.py"
