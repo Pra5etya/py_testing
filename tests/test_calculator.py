@@ -1,4 +1,7 @@
-from functions.calculator import add, subtract
+# import sys
+# sys.path.insert(0, 'D:\GIT Data\py_unit_test\functions')
+
+from codes.calculator import add, subtract
 
 def test_add():
     assert add(2, 3) == 5

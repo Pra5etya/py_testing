@@ -1,4 +1,7 @@
-from functions.math_operations import multiply, divide
+# import sys
+# sys.path.insert(0, 'D:\GIT Data\py_unit_test\functions')
+
+from codes.math_operations import multiply, divide
 
 def test_multiply():
     assert multiply(2, 3) == 6

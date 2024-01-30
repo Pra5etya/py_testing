@@ -6,4 +6,4 @@ my_env
 
 # pytest cache on specific folder
 tests/__pycache__
-functions/__pycache__
+tests/codes/__pycache__
