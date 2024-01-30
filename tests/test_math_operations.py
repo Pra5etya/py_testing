@@ -1,4 +1,4 @@
-from src.math_operations import multiply, divide
+from functions.math_operations import multiply, divide
 
 def test_multiply():
     assert multiply(2, 3) == 6
