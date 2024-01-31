@@ -1,9 +1,15 @@
 # py env
 my_env
 
-# pytest cache
+# root cache
+__pycache__
+
+# pytest_cache
 .pytest_cache
 
-# pytest cache on specific folder
+# pytest testing cache
 tests/__pycache__
-tests/codes/__pycache__
+codes/__pycache__
+
+# web dev
+web_dev/__pycache__

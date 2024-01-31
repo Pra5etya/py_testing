@@ -2,20 +2,45 @@
 
 ```
 py -m venv "environment_name"
-pip install pytest
+pip install pytest Flask
 ```
 
 ## Folder Structure
 
-o) Make folder tests/ and add file .py for test \
-o) Make folder in test/ and add file .py for testing codes \ 
-
-## DEMO
+o) Make dir tests/ and add file .py for test \
+o) Make dir for test codes \
+o) Run code bellow: 
 
 ```
-pytest test/ -v
+# run this code
+py -m pytest test/ -v
+
+# or add file path for pytest
+> conftest.py
+```
+o) conftest.py: 
+
+```
+import os
+import sys
+
+# determine root project
+project_root = os.path.dirname(os.path.abspath(__file__))
+
+# dir path
+codes_path = os.path.join(project_root, 'dir names')
+
+# add to sys.path
+sys.path.append(codes_path)
 ```
 
-## Future Update
+o) Run code normally: 
 
-o) Check Note
+```
+pytest tests/ -v
+```
+
+## Use on Web Development (Flask)
+
+o) run flask \
+o) run pytest 

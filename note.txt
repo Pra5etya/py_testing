@@ -1,6 +1,0 @@
-Fixture for Setup and Teardown
-Parameterized Testing
-Plugin and Ekstensibilitas
-
-Combine with another framework:
-o) Flask
